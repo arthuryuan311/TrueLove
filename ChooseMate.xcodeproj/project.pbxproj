@@ -14,6 +14,7 @@
 		F8FAB4471E8D349E00373659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FAB4451E8D349E00373659 /* LaunchScreen.storyboard */; };
 		F8FAB4521E8D349E00373659 /* ChooseMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAB4511E8D349E00373659 /* ChooseMateTests.swift */; };
 		F8FAB45D1E8D349F00373659 /* ChooseMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAB45C1E8D349F00373659 /* ChooseMateUITests.swift */; };
+		F8FAB46B1E8D3A1F00373659 /* TrueLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAB46A1E8D3A1F00373659 /* TrueLoveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F8FAB4581E8D349E00373659 /* ChooseMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FAB45C1E8D349F00373659 /* ChooseMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMateUITests.swift; sourceTree = "<group>"; };
 		F8FAB45E1E8D349F00373659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FAB46A1E8D3A1F00373659 /* TrueLoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueLoveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F8FAB43C1E8D349E00373659 /* AppDelegate.swift */,
 				F8FAB43E1E8D349E00373659 /* ViewController.swift */,
 				F8FAB4401E8D349E00373659 /* Main.storyboard */,
+				F8FAB46A1E8D3A1F00373659 /* TrueLoveViewController.swift */,
 				F8FAB4431E8D349E00373659 /* Assets.xcassets */,
 				F8FAB4451E8D349E00373659 /* LaunchScreen.storyboard */,
 				F8FAB4481E8D349E00373659 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				F8FAB43F1E8D349E00373659 /* ViewController.swift in Sources */,
 				F8FAB43D1E8D349E00373659 /* AppDelegate.swift in Sources */,
+				F8FAB46B1E8D3A1F00373659 /* TrueLoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				F8FAB4631E8D349F00373659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8FAB4641E8D349F00373659 /* Build configuration list for PBXNativeTarget "ChooseMateTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				F8FAB4661E8D349F00373659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8FAB4671E8D349F00373659 /* Build configuration list for PBXNativeTarget "ChooseMateUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				F8FAB4691E8D349F00373659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
